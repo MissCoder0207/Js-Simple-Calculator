@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS_Lesson2</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-2">
+            <div class="card">
+                <div class="card-header">
+                    SIMPLE CALCULATOR
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="a">a</label>
+                        <input type="text" class="form-control" placeholder="a son ni kiritin ..." id="a">
+                    </div>
+
+                    <div class="form-group">
+                        <select name="" id="operation" class="form-control">
+                            <option value="+">+</option>
+                            <option value="-">-</option>
+                            <option value="*">*</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="b">b</label>
+                        <input type="text" class="form-control" placeholder="b son ni kiritin ..." id="b">
+                    </div>
+                    <button class="btn btn-primary" onclick="calculate()">Calculate</button>
+                </div>
+                <div class="card-footer">
+                    <h2 id="result"></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="js/jQuery.js"></script>
+<script src="js/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
